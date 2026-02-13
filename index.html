@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <main class="app">
+    <h1 class="logo">SPLI<br> TTER</h1>
+
+    <section class="calculator">
+
+   
+      <div class="inputs">
+
+        <label>cuenta</label>
+        <input type="number" placeholder="0.00" class="bill-input">
+
+        <label>Selecionar propina %</label>
+     <div class="buttons">
+  <button class="tip-btn" data-value="5">5%</button>
+  <button class="tip-btn" data-value="10">10%</button>
+  <button class="tip-btn" data-value="15">15%</button>
+  <button class="tip-btn" data-value="25">25%</button>
+  <button class="tip-btn" data-value="50">50%</button>
+  <input type="number" id="custom" placeholder="Custom">
+</div>
+
+        <label>
+          Numbero de persona
+          <span class="error"></span>
+        </label>
+        <input type="number" placeholder="0" class="people-input error-input">
+
+      </div>
+
+  
+      <div class="results">
+
+        <div class="result-row">
+          <div>
+            <p>propina</p>
+            <small>/persona</small>
+          </div>
+          <h2>$0.00</h2>
+        </div>
+
+        <div class="result-row">
+          <div>
+            <p>Total</p>
+            <small>/persona</small>
+          </div>
+          <h2>$0.00</h2>
+        </div>
+
+        <button class="reset">RESET</button>
+
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>
